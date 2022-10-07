@@ -1,13 +1,16 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Login } from "../components/pages";
 import { Abertura } from "../components/pages/abertura";
-
 
 const Rotas: React.FC = () => {
 	return (
-		<Routes>
-			<Route path="/" element={<Abertura />} />
-		</Routes>
+		<Router>
+			<Routes>
+				<Route path="/" element={<Abertura />} />
+				<Route path="/login" element={<Login />} />
+			</Routes>
+		</Router>
 	);
 };
 

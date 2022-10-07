@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Link } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import useStyles from "./style";
 
 interface Props {
