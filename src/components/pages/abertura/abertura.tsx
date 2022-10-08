@@ -11,7 +11,7 @@ const Abertura: React.FC = () => {
 	const navigate = useNavigate();
 
 	const handleClick = () => {
-		navigate("/create-account");
+		navigate("/criar");
 	};
 
 	const handleClickSignin = () => {
