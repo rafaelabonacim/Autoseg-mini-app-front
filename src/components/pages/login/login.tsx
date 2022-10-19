@@ -3,7 +3,6 @@ import { LoginForm } from "../../organisms";
 import { seta, marca_mini_app } from "../../../images/index";
 
 import useStyles from "./style";
-import { ButtonAddAccount } from "../../atoms/button";
 import { useNavigate } from "react-router-dom";
 
 const Login: React.FC = () => {
@@ -11,9 +10,6 @@ const Login: React.FC = () => {
 
 	const navigate = useNavigate();
 
-	const handleClickSignin = () => {
-		navigate("/login");
-	};
 	const handleClickSeta = () => {
 		navigate("/");
 	};
@@ -35,9 +31,7 @@ const Login: React.FC = () => {
 						</Box>
 						<Typography className={classes.text}>Entrar</Typography>
 						<LoginForm />
-						<Box className={classes.buttonBoxSignin}>
-							<ButtonAddAccount text="Entrar" handleClick={handleClickSignin} />
-						</Box>
+
 					</Box>
 				</Box>
 			</Box>

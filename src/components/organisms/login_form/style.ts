@@ -21,5 +21,19 @@ const useStyles = makeStyles(() => ({
 		// textAlign:'center'
 
 	},
+	buttonBoxSignin: {
+		backgroundColor: theme.palette.common.green,
+		cursor: "pointer",
+		color: theme.palette.common.brown,
+		marginTop: 20,
+		//  width: "200px",
+		// height: "40px",
+		// borderRadius: "4px",
+		textAlign: "center",
+		display: "flex",
+		flexDirection: "column",
+		alignItems:'center',
+		margin:180
+	},
 }));
 export default useStyles;
