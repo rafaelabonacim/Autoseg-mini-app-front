@@ -20,20 +20,7 @@ const useStyles = makeStyles(() => ({
 		marginBottom: "40px",
 		margin: "16px",
 	},
-	buttonBoxSignin: {
-		backgroundColor: theme.palette.common.orange,
-		cursor: "pointer",
-		color: theme.palette.common.white,
-		marginTop: 20,
-		//  width: "200px",
-		// height: "40px",
-		// borderRadius: "4px",
-		textAlign: "center",
-		display: "flex",
-		flexDirection: "column",
-		alignItems:'center',
-		margin:180
-	},
+	
 	boxBackground: {
 		backgroundColor: theme.palette.common.blond,
 		// height: 500,

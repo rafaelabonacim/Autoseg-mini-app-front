@@ -7,8 +7,7 @@ const useStyles = makeStyles(() => ({
 		display: "flex",
 		flexDirection: "column",
 		// justifyContent: "center",
-		alignItems:'center',
-
+		alignItems: "center",
 
 		// marginLeft: 80,
 		// marginRight: 80
@@ -19,7 +18,20 @@ const useStyles = makeStyles(() => ({
 		marginTop: 5,
 		// minWidth: 400,
 		// textAlign:'center'
-
+	},
+	buttonBoxSignin: {
+		backgroundColor: theme.palette.common.orange,
+		cursor: "pointer",
+		color: theme.palette.common.white,
+		marginTop: 20,
+		//  width: "200px",
+		// height: "40px",
+		// borderRadius: "4px",
+		textAlign: "center",
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		margin: 180,
 	},
 }));
 export default useStyles;

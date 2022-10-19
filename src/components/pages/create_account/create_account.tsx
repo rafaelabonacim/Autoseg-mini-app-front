@@ -38,12 +38,7 @@ const CreateAccount: React.FC = () => {
 						<Typography className={classes.text}>Criar Conta</Typography>
 
 						<CreateAccountForm />
-						<Box className={classes.buttonBoxSignin}>
-							<ButtonAddAccount
-								text="Criar Conta"
-								handleClick={handleClickSignin}
-							/>
-						</Box>
+						
 					</Box>
 				</Box>
 			</Box>
